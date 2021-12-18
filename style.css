@@ -12,17 +12,35 @@ body{
     color: white;
 }
 h1{
-    font-weight: 200;
-    color: #5C7AFF;
+    font-weight: 700;
+    font-size: 76px;
+    background: linear-gradient(45deg, #5C7AFF, #B7FDFE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block
+    
 }
-h3{
-    font-weight: 100;
-    font-size: 14px;
+h2{
+    font-weight: 300;
+    font-size: 45px;
 }
 .content{
-    padding-left: 20%;
+    padding-left: 10%;
     margin-top: 15%;
 }
-.form{
-
+svg{
+    width: 760px;
+    display: flex;
+    position: relative;
+    float: right;
+    top:-500px;
+    left: -3%;
+    border: 0;
+}
+.content img{
+    position: relative;
+    left: 60%;
 }
